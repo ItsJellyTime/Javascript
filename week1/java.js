@@ -1,4 +1,5 @@
-let numberOne = 5;
-let numberTwo = 15;
+const firstName = "jorn";
+const briljant = "briljant";
 
-console.log(numberOne + numberTwo);
+const result = "I" + "am" + firstName;
+console.log(result);
