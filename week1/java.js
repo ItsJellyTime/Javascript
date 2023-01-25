@@ -1,5 +1,5 @@
-const firstName = "jorn";
-const briljant = "briljant";
+const x = 3;
+const y = 3;
+const z = 3;
 
-const result = "I" + "am" + firstName;
-console.log(result);
+console.log(x + y + z);
