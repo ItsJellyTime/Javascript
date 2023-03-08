@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rekenspel</title>
+    <link rel="stylesheet" href="reken.css">
+  </head>
+  <body>
+    <div id="game">
+      <h1>Rekenspel</h1>
+      <div id="question"></div>
+      <div id="answer-container">
+        <input type="number" id="answer" placeholder="Antwoord">
+        <button id="submit" onclick="checkAnswer()">Antwoord geven</button>
+        <span id="checkmark">&#10003;</span>
+      </div>
+      <div id="scoreboard"> <span id="score">0</span></div>
+      <button id="new-game" onclick="newGame()">Nieuw spel</button>
+    </div>
+    <script src="reken.js"></script>
+  </body>
+</html>
