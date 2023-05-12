@@ -1,0 +1,131 @@
+body {
+  background-color: #F5F5F5;
+  font-family: Arial, sans-serif;
+}
+
+#main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+table th {
+  background-color: #E6E6E6;
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+}
+
+table td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+}
+
+#dice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.die {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 50px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.die:hover {
+  background-color: #666666;
+}
+
+#roll-button {
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+  padding: 10px 30px;
+  background-color: #333333;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#roll-button:hover {
+  background-color: #666666;
+}
+
+#score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-category {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 24px;
+  width: 80px;
+  text-align: center;
+  color: #333333;
+}
+
+.score-value {
+  display: inline-block;
+  font-size: 24px;
+  width: 40px;
+  text-align: center;
+  color: #333333;
+}
+
+#history-container {
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 600px;
+}
+
+.history-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.history-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.history-item {
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-align: center;
+}
